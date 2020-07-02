@@ -21,8 +21,9 @@ class SmallestMultiple
         factors << reduced_number
       else
         factors << number 
-      end}
-      factors.reduce(:*)
+      end
+    }
+    factors.reduce(:*)
   end 
     
     
