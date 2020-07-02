@@ -16,5 +16,5 @@ def smallest_multiple(limit)
     else
       factors << number 
     end}
-    factors.reduce {|a
+    factors.reduce(:*)
 end 
