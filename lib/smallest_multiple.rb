@@ -5,7 +5,7 @@ def smallest_multiple(limit)
   range.each {|number| 
     if factors.find {|factor| number % factor == 0}
       i = 0
-      reduced_number
+      reduced_number = number
       while i < factors.length 
         if reduced_number % factors[i] == 0 
           reduced_number /= factors[i] 
