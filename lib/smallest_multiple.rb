@@ -8,9 +8,11 @@ def smallest_multiple(limit)
       reduced_number
       while i < factors.length 
         if reduced_number % factors[i] == 0 
-          reduced_number /= reduced_number / factors[i] 
+          reduced_number /= factors[i] 
         end
         i += 1
+      end 
+      factors << reduced_number
     else
       factors << number 
     end
