@@ -15,5 +15,5 @@ def smallest_multiple(limit)
       factors << reduced_number
     else
       factors << number 
-    end
+    end}
 end 
